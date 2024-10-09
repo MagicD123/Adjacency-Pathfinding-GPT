@@ -24,7 +24,7 @@ def read_json(filename: str):
 
 def bfs_shortest_path(adjacency_matrix, start, end):
     """
-    Calculate the shortest path using Breadth-First Search (BFS).
+    Calculate the shortest path using Breadth-First Search.
     """
     size = len(adjacency_matrix)
     visited = [False] * size
@@ -45,7 +45,7 @@ def bfs_shortest_path(adjacency_matrix, start, end):
 
 def adjacency_matrix_to_text(adjacency_matrix):
     """
-    Convert an adjacency matrix to a textual description.
+    Convert an adjacency matrix to a text description.
     """
     description = ""
     for i, row in enumerate(adjacency_matrix):
@@ -58,7 +58,7 @@ def adjacency_matrix_to_text(adjacency_matrix):
 
 def paths_to_text(paths):
     """
-    Convert a list of paths to a textual description.
+    Convert a list of paths to a text description.
     """
     description = ""
     for idx, path in enumerate(paths):
@@ -67,7 +67,7 @@ def paths_to_text(paths):
 
 def generate_data_description(matrix_id, size, adjacency_matrix, start_node, end_node):
     """
-    Generate a textual or JSON description of the adjacency matrix based on settings.
+    Generate a text or JSON description of the adjacency matrix based on settings.
     """
     if not adjacency_matrix:
         print(f"Matrix ID {matrix_id} has inconsistent data.")
