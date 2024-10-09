@@ -4,8 +4,15 @@ This repository contains a Python script that explores the capabilities of OpenA
 
 ## Requirements
 - Python 3.6 or higher
-- OpenAI Python library
-- tqdm library for progress bars
+- Extra libraries:
+  - numpy: for matrix
+  - openai: for OpenAI GPT models
+  - tqdm: for displaying progress bars
+
+A way to install environment:
+```
+pip install numpy openai tqdm
+```
 
 ## generate_adjacency_matrices.py
 Generate random adjacency matrices and save them to a JSON file for experiment.
