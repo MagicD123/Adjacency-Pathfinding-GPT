@@ -3,9 +3,9 @@
 This repository contains a Python script that explores the capabilities of OpenAI's GPT models in understanding adjacency matrices and performing basic pathfinding tasks in graphs. 
 
 ## Requirements
-Python 3.6 or higher
-OpenAI Python library
-tqdm library for progress bars
+- Python 3.6 or higher
+- OpenAI Python library
+- tqdm library for progress bars
 
 ## generate_adjacency_matrices.py
 Generate random adjacency matrices and save them to a JSON file for experiment.
